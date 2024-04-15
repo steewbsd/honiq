@@ -1,0 +1,1064 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "4752d952-9322-46fb-9cc2-2404eb91f5a4")
+	(paper "A4")
+	(title_block
+		(title "FMU")
+		(date "2024-04-05")
+		(rev "1")
+		(company "Daniel Pérez (steewBSD)")
+		(comment 1 "Flight Management Unit for quadcopter")
+		(comment 2 "Main hierarchical sheet")
+	)
+	(lib_symbols)
+	(junction
+		(at 118.11 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "345ab1f9-6a9f-4fac-b5f4-620a51a59f50")
+	)
+	(junction
+		(at 115.57 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ac250d9-bfb8-470f-8a2c-64562d57375b")
+	)
+	(junction
+		(at 115.57 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa4384f5-8d52-4380-83d6-83cbe353ddcf")
+	)
+	(junction
+		(at 115.57 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad651792-5c3c-4e24-bffa-d0f4c60ea4a2")
+	)
+	(junction
+		(at 118.11 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9771908-7202-463f-9b82-1fd299f8cb9b")
+	)
+	(junction
+		(at 118.11 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f87e5da1-3b7c-4fb3-ad28-46beb8c2d5f3")
+	)
+	(wire
+		(pts
+			(xy 92.71 50.8) (xy 118.11 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eff531c-bf41-4899-a9b9-540a59ffe975")
+	)
+	(wire
+		(pts
+			(xy 118.11 115.57) (xy 118.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f373e86-603d-40fd-9e1e-dd09e49b738b")
+	)
+	(wire
+		(pts
+			(xy 118.11 50.8) (xy 123.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12ca17d3-9958-4b2d-adb6-b1eb23392459")
+	)
+	(wire
+		(pts
+			(xy 115.57 81.28) (xy 115.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150829f1-8a5b-4edd-88e0-f4f10e9bc89d")
+	)
+	(wire
+		(pts
+			(xy 118.11 50.8) (xy 118.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae08288-8274-4ad8-a504-16527b231d48")
+	)
+	(wire
+		(pts
+			(xy 198.12 45.72) (xy 191.77 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4e29ce-57e1-405e-8944-49f5e3b34833")
+	)
+	(wire
+		(pts
+			(xy 194.31 30.48) (xy 194.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283174ca-3129-4252-9e0d-f109a4601e7f")
+	)
+	(wire
+		(pts
+			(xy 115.57 30.48) (xy 115.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31857753-8441-4b7a-8562-b1b37a65e297")
+	)
+	(wire
+		(pts
+			(xy 92.71 115.57) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46889ebf-d1b2-4d0a-bb41-0f06623ea5f7")
+	)
+	(wire
+		(pts
+			(xy 194.31 43.18) (xy 198.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5167374b-59a1-4135-b200-40579c5b0b29")
+	)
+	(wire
+		(pts
+			(xy 118.11 83.82) (xy 118.11 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524c88da-fc99-400f-8934-629bb9119bde")
+	)
+	(wire
+		(pts
+			(xy 92.71 144.78) (xy 115.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ec604e6-1985-4472-817d-bc14afc644de")
+	)
+	(wire
+		(pts
+			(xy 92.71 147.32) (xy 118.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ace67b-7589-4fc0-b847-100deba8ca6f")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecd4ac3-0dec-41e3-bd28-e15353b89e75")
+	)
+	(wire
+		(pts
+			(xy 179.07 50.8) (xy 198.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705d29ea-6115-4f6e-bee3-f1714da4bd25")
+	)
+	(wire
+		(pts
+			(xy 115.57 113.03) (xy 115.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85721a67-66ed-4ab5-9d01-65202a5f12e3")
+	)
+	(wire
+		(pts
+			(xy 115.57 48.26) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9105f844-e35e-4e54-8bc7-3858b10ff07d")
+	)
+	(wire
+		(pts
+			(xy 92.71 48.26) (xy 115.57 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e032b8-27b5-4e12-a324-abcd30eccb4c")
+	)
+	(wire
+		(pts
+			(xy 191.77 33.02) (xy 118.11 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae4fdca-ae5e-40b9-a07c-612cbffc034c")
+	)
+	(wire
+		(pts
+			(xy 115.57 48.26) (xy 123.19 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf06cec-d64a-47fd-a5d4-b9325ce86f10")
+	)
+	(wire
+		(pts
+			(xy 118.11 33.02) (xy 118.11 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fe613f-8763-4385-aeba-4e4f1a63f479")
+	)
+	(wire
+		(pts
+			(xy 92.71 83.82) (xy 118.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b814931f-7f4c-4c52-85d8-2f1293890b2a")
+	)
+	(wire
+		(pts
+			(xy 191.77 45.72) (xy 191.77 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac8fe72-abcc-4571-a664-b9ec079950ff")
+	)
+	(wire
+		(pts
+			(xy 179.07 48.26) (xy 198.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2368d56-6412-404d-8495-812729533f19")
+	)
+	(bus
+		(pts
+			(xy 179.07 60.96) (xy 198.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca548c2-d402-4ea4-91aa-86b9c7ab9223")
+	)
+	(wire
+		(pts
+			(xy 92.71 113.03) (xy 115.57 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f2da2b-c1bf-4e82-b9f2-e0060f0a0e17")
+	)
+	(wire
+		(pts
+			(xy 179.07 53.34) (xy 198.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f176a18b-2a20-47d6-b5a3-6ab506bede2b")
+	)
+	(wire
+		(pts
+			(xy 115.57 30.48) (xy 194.31 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff422cd3-12d0-4755-9547-eec20392a7d4")
+	)
+	(text_box "Naming convention:\n\nMCU:\n-------------------\nC_X: X5R capacitors\nC_N: NP0 capacitors\n\nPower:\n-------------------\n(Charger): CC_X: X5R capacitors\n(Charger): RC_: Resistor\n(Charger): RC_D: Resistor (Dissipating)\n\nEvery cap size is 0603"
+		(exclude_from_sim no)
+		(at 19.05 38.1 0)
+		(size 31.75 38.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "93d0ff3c-ce6d-4ab7-bf24-c40553a16e4f")
+	)
+	(hierarchical_label "DOUT[0..11]"
+		(shape input)
+		(at 179.07 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f84975bb-1468-48f8-bc96-8fdb148c094f")
+	)
+	(sheet
+		(at 198.12 38.1)
+		(size 26.67 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03377529-41f5-49ba-bef8-ce3e0de4928d")
+		(property "Sheetname" "sensor"
+			(at 198.12 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor.kicad_sch"
+			(at 198.12 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IMU_NRST" input
+			(at 198.12 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ad6f7a0-27a3-4c6b-92ad-8bdb0a7ab122")
+		)
+		(pin "SDA" input
+			(at 198.12 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d2f2aebb-42c2-4c11-867e-f08eb5c7e4f4")
+		)
+		(pin "SCL" input
+			(at 198.12 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "12867ab2-6e7c-4d92-9edf-42eec7511952")
+		)
+		(pin "NBOOT_LOAD" input
+			(at 198.12 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "891a4050-a37b-4fa5-809c-a97a437db6cb")
+		)
+		(pin "IMU_INT" output
+			(at 198.12 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b22fa1c-fc19-48ce-a868-1e2a74530a3c")
+		)
+		(pin "DOUT[0..11]" output
+			(at 198.12 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da9ef027-33e8-47dc-af17-6e0089eda2fe")
+		)
+		(instances
+			(project "fmu"
+				(path "/4752d952-9322-46fb-9cc2-2404eb91f5a4"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 38.1)
+		(size 34.29 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ffba389-7767-4897-a9a6-36168be44beb")
+		(property "Sheetname" "motor1"
+			(at 58.42 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor1.kicad_sch"
+			(at 58.42 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPEED" input
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a69899cc-1b75-4290-8f51-2ed50e56de6b")
+		)
+		(pin "SDA" bidirectional
+			(at 92.71 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "11275441-bf13-41db-909d-d9b19090f0ed")
+		)
+		(pin "SCL" input
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "667922f1-edfb-4c6f-9941-02ee5a79f43a")
+		)
+		(pin "DIR" input
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0977143e-bbf7-423f-9f02-ebf3a3ed5f9b")
+		)
+		(pin "BRAKE" input
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d3fc57b-3430-4482-bce7-91fb60d2992f")
+		)
+		(pin "NFAULT" input
+			(at 92.71 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7c289629-88b2-4067-88a5-0835ed21b1b4")
+		)
+		(pin "CURRENT_SENS" output
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b7aba863-c4a9-43d0-9f82-6fcb74f85000")
+		)
+		(pin "FG" input
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "244794d2-3aa7-47c2-9cf9-a03618c44074")
+		)
+		(instances
+			(project "fmu"
+				(path "/4752d952-9322-46fb-9cc2-2404eb91f5a4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 134.62)
+		(size 34.29 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46b5d8da-e763-4f93-9e8f-7132b5d9fd7e")
+		(property "Sheetname" "motor4"
+			(at 58.42 133.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor1.kicad_sch"
+			(at 58.42 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPEED" input
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4a05e34a-0b71-4c55-93c6-e1dfae24c562")
+		)
+		(pin "SDA" bidirectional
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a414b21f-b5fe-4f64-b0dc-bed190a3e399")
+		)
+		(pin "SCL" input
+			(at 92.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b405e075-a9c2-4eb0-a159-51ab1e2c2ede")
+		)
+		(pin "DIR" input
+			(at 92.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3d2c07b1-4a9b-4a89-bb6e-0b2147eed2d2")
+		)
+		(pin "BRAKE" input
+			(at 92.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6152abed-d82a-41bc-8a32-c2e6b612ae79")
+		)
+		(pin "NFAULT" input
+			(at 92.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bc55da0f-16f7-422a-8c82-192942559592")
+		)
+		(pin "CURRENT_SENS" output
+			(at 92.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f47308ae-9340-47c5-a9ae-9d5716991ece")
+		)
+		(pin "FG" input
+			(at 92.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d77877a5-cb78-44ad-af8d-06902af00084")
+		)
+		(instances
+			(project "fmu"
+				(path "/4752d952-9322-46fb-9cc2-2404eb91f5a4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 102.87)
+		(size 34.29 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b8a454b-98f0-4fa4-a9e7-894b0c3f9d86")
+		(property "Sheetname" "motor3"
+			(at 58.42 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor1.kicad_sch"
+			(at 58.42 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPEED" input
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c2e85e06-65ce-446f-ba00-8b04d42df6e0")
+		)
+		(pin "SDA" bidirectional
+			(at 92.71 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "92a95c53-601e-4424-b6e4-8863c6778976")
+		)
+		(pin "SCL" input
+			(at 92.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a5162357-1d51-4b9c-a9dc-015494a37097")
+		)
+		(pin "DIR" input
+			(at 92.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a196f88e-317d-4a7d-b1c6-b366c750b81b")
+		)
+		(pin "BRAKE" input
+			(at 92.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0542045-9327-4323-bba1-5f03713a5cc3")
+		)
+		(pin "NFAULT" input
+			(at 92.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f5305cbb-e8e3-4794-91d4-11e07d3168da")
+		)
+		(pin "CURRENT_SENS" output
+			(at 92.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d07adf9e-77a2-4a93-8066-b024f8399668")
+		)
+		(pin "FG" input
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7e58253e-e827-47de-90ba-2e970d1f5680")
+		)
+		(instances
+			(project "fmu"
+				(path "/4752d952-9322-46fb-9cc2-2404eb91f5a4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 38.1)
+		(size 55.88 52.07)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a940b45d-43c6-47ac-8773-747896323a1c")
+		(property "Sheetname" "mcu"
+			(at 123.19 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 123.19 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 123.19 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dffb1491-66fa-4986-9eaf-ed27d979fe30")
+		)
+		(pin "SCL" output
+			(at 123.19 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed0c4f51-3079-44a4-bbb4-ab7216142264")
+		)
+		(pin "NBOOT_LOAD" output
+			(at 179.07 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3bf5f80e-9f17-4c34-8822-6c8dbda97c94")
+		)
+		(pin "IMU_INT" input
+			(at 179.07 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90219702-aa86-4c84-96ed-f5ba71b5d520")
+		)
+		(pin "IMU_NRST" output
+			(at 179.07 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e151bcbf-6850-4af6-9c57-9b515a6b6f5a")
+		)
+		(instances
+			(project "fmu"
+				(path "/4752d952-9322-46fb-9cc2-2404eb91f5a4"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 71.12)
+		(size 34.29 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b967478c-5af9-47cc-ac54-cb6f38bbb168")
+		(property "Sheetname" "motor2"
+			(at 58.42 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor1.kicad_sch"
+			(at 58.42 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPEED" input
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f829cd82-62e6-469a-bc91-48459de73462")
+		)
+		(pin "SDA" bidirectional
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c02e854-b7ea-4739-80db-067b0ff02ab3")
+		)
+		(pin "SCL" input
+			(at 92.71 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9a5d3cb8-3e2f-4243-a485-a106466a873a")
+		)
+		(pin "DIR" input
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fedc3670-9ac1-4208-95c0-0f7a2391a421")
+		)
+		(pin "BRAKE" input
+			(at 92.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f358daab-a42f-402e-90f6-cc06f9f45db6")
+		)
+		(pin "NFAULT" input
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "88786b51-f6cd-45d0-96eb-7f1b6de8bc60")
+		)
+		(pin "CURRENT_SENS" output
+			(at 92.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00ab2802-3305-46b6-a291-86210943e371")
+		)
+		(pin "FG" input
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d31fc6f3-0790-43f8-97c0-93396cd6070b")
+		)
+		(instances
+			(project "fmu"
+				(path "/4752d952-9322-46fb-9cc2-2404eb91f5a4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 99.06)
+		(size 55.88 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea2647fd-fd97-4607-acae-2a9c5eb57707")
+		(property "Sheetname" "power"
+			(at 123.19 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 123.19 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "fmu"
+				(path "/4752d952-9322-46fb-9cc2-2404eb91f5a4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
