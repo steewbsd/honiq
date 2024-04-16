@@ -14,4 +14,6 @@
   (lib (name "2024-04-14_16-25-50")(type "KiCad")(uri "/home/steew/things/libraries/ul_ABS07-32-768KHZ-7-T/KiCADv6/2024-04-14_16-25-50.kicad_sym")(options "")(descr ""))
   (lib (name "NRF52840-QIAA-R7")(type "KiCad")(uri "/home/steew/things/libraries/NRF52840-QIAA-R7/NRF52840-QIAA-R7.kicad_sym")(options "")(descr ""))
   (lib (name "EFR32FG28B320F1024IM68-AR")(type "KiCad")(uri "/home/steew/things/libraries/LIB_EFR32FG28B320F1024IM68-AR/EFR32FG28B320F1024IM68-AR/KiCad/EFR32FG28B320F1024IM68-AR.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ7791500PWT")(type "KiCad")(uri "/home/steew/things/libraries/LIB_BQ7791500PWT/BQ7791500PWT/KiCad/BQ7791500PWT.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ25798RQMR")(type "KiCad")(uri "/home/steew/things/libraries/LIB_BQ25798RQMR/BQ25798RQMR/KiCad/BQ25798RQMR.kicad_sym")(options "")(descr ""))
 )

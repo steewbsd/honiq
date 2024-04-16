@@ -16,4 +16,6 @@
   (lib (name "MAX20075")(type "KiCad")(uri "/home/steew/things/libraries/ul_MAX20075ATCA-V-/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "NRF52840-QIAA-R7")(type "KiCad")(uri "/home/steew/things/libraries/NRF52840-QIAA-R7")(options "")(descr ""))
   (lib (name "EFR32")(type "KiCad")(uri "/home/steew/things/libraries/LIB_EFR32FG28B320F1024IM68-AR/EFR32FG28B320F1024IM68-AR/KiCad")(options "")(descr ""))
+  (lib (name "BQ77915")(type "KiCad")(uri "/home/steew/things/libraries/LIB_BQ7791500PWT/BQ7791500PWT/KiCad")(options "")(descr ""))
+  (lib (name "BQ25798")(type "KiCad")(uri "/home/steew/things/libraries/LIB_BQ25798RQMR/BQ25798RQMR/KiCad")(options "")(descr ""))
 )
