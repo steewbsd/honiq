@@ -4349,6 +4349,12 @@
 		(uuid "28c401ff-0b23-4971-9359-256ac0570ca2")
 	)
 	(junction
+		(at 104.14 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cd2d001-13ff-4004-8137-6c9439271be1")
+	)
+	(junction
 		(at 137.16 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4604,7 +4610,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 151.13) (xy 104.14 154.94)
+			(xy 104.14 151.13) (xy 104.14 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5111,6 +5117,16 @@
 			(type default)
 		)
 		(uuid "54ef9c18-153b-4881-8294-c72624e95aed")
+	)
+	(wire
+		(pts
+			(xy 104.14 152.4) (xy 104.14 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5634f42d-c624-4d61-abb7-dcb6ec239282")
 	)
 	(wire
 		(pts
@@ -7758,6 +7774,73 @@
 			(project "fmu"
 				(path "/4752d952-9322-46fb-9cc2-2404eb91f5a4/ea2647fd-fd97-4607-acae-2a9c5eb57707"
 					(reference "CC9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 104.14 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35d44333-ed7e-4465-8c2f-ea69bc5dfffe")
+		(property "Reference" "#FLG04"
+			(at 106.045 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 107.95 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 104.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b5373a4-64f4-40a0-99e8-32e67920c8c2")
+		)
+		(instances
+			(project "fmu"
+				(path "/4752d952-9322-46fb-9cc2-2404eb91f5a4/ea2647fd-fd97-4607-acae-2a9c5eb57707"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)

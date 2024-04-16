@@ -2779,6 +2779,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 83.82) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307ecf63-31b7-433c-8d64-7ed845881e22")
+	)
+	(wire
+		(pts
 			(xy 147.32 109.22) (xy 149.86 109.22)
 		)
 		(stroke
@@ -3016,6 +3026,16 @@
 			(type default)
 		)
 		(uuid "5de265d3-5ee0-4bf0-914c-dce3cfcc61c4")
+	)
+	(wire
+		(pts
+			(xy 147.32 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e075e33-b9a6-4263-be8a-e307a49b7d6d")
 	)
 	(wire
 		(pts
@@ -3506,6 +3526,16 @@
 			(type default)
 		)
 		(uuid "aecb19d9-7c8c-440b-b847-85d23412a7c1")
+	)
+	(wire
+		(pts
+			(xy 147.32 86.36) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65ae048-9f79-4f65-b5fc-183a62ad5f79")
 	)
 	(wire
 		(pts
@@ -4206,6 +4236,7 @@
 	)
 	(label "DOUT3"
 		(at 106.68 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4216,6 +4247,7 @@
 	)
 	(label "DOUT5"
 		(at 111.76 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4259,6 +4291,7 @@
 	)
 	(label "DOUT10"
 		(at 124.46 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4280,6 +4313,7 @@
 	)
 	(label "DOUT4"
 		(at 109.22 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4290,6 +4324,7 @@
 	)
 	(label "DOUT11"
 		(at 127 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4333,6 +4368,7 @@
 	)
 	(label "DOUT2"
 		(at 104.14 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4343,6 +4379,7 @@
 	)
 	(label "DOUT7"
 		(at 116.84 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4353,6 +4390,7 @@
 	)
 	(label "DOUT6"
 		(at 114.3 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4363,6 +4401,7 @@
 	)
 	(label "DOUT1"
 		(at 101.6 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4417,6 +4456,7 @@
 	)
 	(label "DOUT0"
 		(at 99.06 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4449,6 +4489,7 @@
 	)
 	(label "DOUT8"
 		(at 119.38 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4503,6 +4544,7 @@
 	)
 	(label "DOUT9"
 		(at 121.92 53.34 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4510,6 +4552,18 @@
 			(justify left bottom)
 		)
 		(uuid "fe17d85e-042b-463e-9b35-8d520a96288d")
+	)
+	(hierarchical_label "LINE_VALID"
+		(shape input)
+		(at 149.86 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e911f46-2c88-4d52-aba0-e97fde69b3f9")
 	)
 	(hierarchical_label "DRV_PWM2"
 		(shape output)
@@ -4582,6 +4636,30 @@
 			(justify right)
 		)
 		(uuid "5e1639be-2c9b-4da0-aaca-6760eb6cdda7")
+	)
+	(hierarchical_label "FRAME_VALID"
+		(shape input)
+		(at 149.86 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c2d6e78-2a9d-4e7f-99fa-db9478b71162")
+	)
+	(hierarchical_label "PIXCLK"
+		(shape input)
+		(at 149.86 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e41c7d2-6028-4956-911d-90833c4a66ba")
 	)
 	(hierarchical_label "DIR1"
 		(shape input)

@@ -1142,6 +1142,46 @@
 			)
 			(uuid "da9ef027-33e8-47dc-af17-6e0089eda2fe")
 		)
+		(pin "FRAME_VALID" output
+			(at 198.12 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02765602-97af-41db-a55a-5c7e4ef1cac1")
+		)
+		(pin "LINE_VALID" output
+			(at 198.12 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4212d546-0a44-434a-ba73-397e9b738bcd")
+		)
+		(pin "PIXCLK" output
+			(at 198.12 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e00d679-8d04-411f-8c5f-2113becc41f0")
+		)
+		(pin "CAM_OFF" input
+			(at 198.12 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83013b78-d3b1-4328-89b3-b88ef6ce5c95")
+		)
 		(instances
 			(project "fmu"
 				(path "/4752d952-9322-46fb-9cc2-2404eb91f5a4"
