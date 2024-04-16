@@ -4067,8 +4067,8 @@
 	)
 	(text_box "I2C"
 		(exclude_from_sim no)
-		(at 128.27 44.45 0)
-		(size 5.08 2.54)
+		(at 128.27 43.18 0)
+		(size 5.08 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -4087,7 +4087,7 @@
 	(text_box "UART"
 		(exclude_from_sim no)
 		(at 118.11 148.59 0)
-		(size 6.35 2.54)
+		(size 6.35 3.81)
 		(stroke
 			(width 0)
 			(type default)

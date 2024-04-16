@@ -63,6 +63,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 63.5) (xy 198.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ad1181-769a-4c6c-bb08-ecb1de16937d")
+	)
+	(wire
+		(pts
 			(xy 179.07 86.36) (xy 181.61 86.36)
 		)
 		(stroke
@@ -363,6 +373,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 68.58) (xy 198.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d12d81d-daeb-4d29-9c1c-d07110410480")
+	)
+	(wire
+		(pts
 			(xy 106.68 48.26) (xy 106.68 81.28)
 		)
 		(stroke
@@ -390,6 +410,16 @@
 			(type default)
 		)
 		(uuid "94e032b8-27b5-4e12-a324-abcd30eccb4c")
+	)
+	(wire
+		(pts
+			(xy 179.07 66.04) (xy 198.12 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96941ec3-78e7-4555-82cb-fc918e14caa0")
 	)
 	(wire
 		(pts
@@ -1733,6 +1763,36 @@
 				(justify right)
 			)
 			(uuid "2dde0db9-802b-423f-9861-78228b9ebbcf")
+		)
+		(pin "PIXCLK" input
+			(at 179.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2c4997b7-f198-41d8-b0d5-bc497fba7dad")
+		)
+		(pin "LINE_VALID" input
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e790af6a-9e27-4825-a454-e7822391e050")
+		)
+		(pin "FRAME_VALID" input
+			(at 179.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c54072ee-25c7-4011-ac31-39fee4eb8aec")
 		)
 		(instances
 			(project "fmu"
