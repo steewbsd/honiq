@@ -18,4 +18,7 @@
   (lib (name "EFR32")(type "KiCad")(uri "/home/steew/things/libraries/LIB_EFR32FG28B320F1024IM68-AR/EFR32FG28B320F1024IM68-AR/KiCad")(options "")(descr ""))
   (lib (name "BQ77915")(type "KiCad")(uri "/home/steew/things/libraries/LIB_BQ7791500PWT/BQ7791500PWT/KiCad")(options "")(descr ""))
   (lib (name "BQ25798")(type "KiCad")(uri "/home/steew/things/libraries/LIB_BQ25798RQMR/BQ25798RQMR/KiCad")(options "")(descr ""))
+  (lib (name "62684-501100ALF")(type "KiCad")(uri "/home/steew/things/libraries/62684-501100ALF")(options "")(descr ""))
+  (lib (name "ACAG1204")(type "KiCad")(uri "/home/steew/things/libraries/LIB_ACAG1204-868-T/ACAG1204-868-T/KiCad")(options "")(descr ""))
+  (lib (name "MSD-12-A")(type "KiCad")(uri "/home/steew/things/libraries/LIB_MSD-12-A/MSD-12-A/KiCad")(options "")(descr ""))
 )

@@ -16,4 +16,7 @@
   (lib (name "EFR32FG28B320F1024IM68-AR")(type "KiCad")(uri "/home/steew/things/libraries/LIB_EFR32FG28B320F1024IM68-AR/EFR32FG28B320F1024IM68-AR/KiCad/EFR32FG28B320F1024IM68-AR.kicad_sym")(options "")(descr ""))
   (lib (name "BQ7791500PWT")(type "KiCad")(uri "/home/steew/things/libraries/LIB_BQ7791500PWT/BQ7791500PWT/KiCad/BQ7791500PWT.kicad_sym")(options "")(descr ""))
   (lib (name "BQ25798RQMR")(type "KiCad")(uri "/home/steew/things/libraries/LIB_BQ25798RQMR/BQ25798RQMR/KiCad/BQ25798RQMR.kicad_sym")(options "")(descr ""))
+  (lib (name "62684-501100ALF")(type "KiCad")(uri "/home/steew/things/libraries/62684-501100ALF/62684-501100ALF.kicad_sym")(options "")(descr ""))
+  (lib (name "ACAG1204-868-T")(type "KiCad")(uri "/home/steew/things/libraries/LIB_ACAG1204-868-T/ACAG1204-868-T/KiCad/ACAG1204-868-T.kicad_sym")(options "")(descr ""))
+  (lib (name "MSD-12-A")(type "KiCad")(uri "/home/steew/things/libraries/LIB_MSD-12-A/MSD-12-A/KiCad/MSD-12-A.kicad_sym")(options "")(descr ""))
 )

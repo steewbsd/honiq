@@ -6031,7 +6031,7 @@
 		)
 		(uuid "8685c3d1-47eb-4ef0-9358-c09f719ddf86")
 	)
-	(text_box "USB-C 3S battery charger"
+	(text_box "USB-C 3S battery charger\n\n(Set as not mounted due to external charging)"
 		(exclude_from_sim no)
 		(at 54.61 95.25 0)
 		(size 34.29 10.16)
